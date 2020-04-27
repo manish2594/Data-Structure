@@ -8,6 +8,7 @@ function bubble(arr){
                     let temp =arr[j];
                     arr[j]=arr[j+1];
                     arr[j+1]=temp;
+                    //swap(arr,j,j+1);
                 }
 
         }
