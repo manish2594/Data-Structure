@@ -30,7 +30,7 @@ const swap=(arr,indx1,indx2)=>{
 
 
 
-//optmised code
+//optimised code
 
 
 function bubble(arr){
@@ -45,10 +45,11 @@ function bubble(arr){
                      noSwap=false
                     //swap(arr,j,j+1);
                 }
+        
+        }
           if(noSwap){
               break;
           }
-        }
     }
     return arr;
 }
