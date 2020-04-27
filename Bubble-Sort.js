@@ -16,3 +16,8 @@ function bubble(arr){
 }
 
 bubble([3,8,1,6])
+
+// swap function
+const swap=(arr,indx1,indx2)=>{
+ [arr[indx1],arr[indx2]]=[arr[indx2],arr[indx1]];
+}
