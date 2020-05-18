@@ -136,6 +136,21 @@ tempIndex++;
       current = current.next;
     }
   }
+    
+      reverse(){
+   var current = this.head;
+   
+   var prev = null;
+   var next;
+   for(var i=0;i<this.length;i++){
+     next = current.next;
+     current.next=prev;
+     prev = current;
+     current = next;
+   }
+ this.head= prev;
+  return this;
+  }
 
   clear(){
     this.head=null;
