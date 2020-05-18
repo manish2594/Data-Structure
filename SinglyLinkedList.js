@@ -84,10 +84,7 @@ removeFirst(){
     }
    
    this.length--
-//    if(this.length === 0){
-//      this.head = null
-//      this.length=0;
-//    }
+
 
   }
 
@@ -151,4 +148,4 @@ var list = new SinglyLinkedList();
 list.push(10);
 list.push(20);
 list.insertFirst(6);
-list.insertAtt(7,1);
+list.insertAt(7,1);
